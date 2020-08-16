@@ -5,6 +5,7 @@ import PortofolioList from "./components/PortofolioList";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Advice from "./components/Advice";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div id="page-top">
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Contact />
       <Advice />
+      <Footer />
     </div>
   );
 }
